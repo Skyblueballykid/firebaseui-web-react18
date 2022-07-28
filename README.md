@@ -15,7 +15,7 @@ FirebaseUI Auth provides a drop-in auth solution that handles the UI flows for s
 Install the npm package in your React app:
 
 ```bash
-npm install --save react-firebaseui
+npm install --save react-firebaseui18
 ```
 
 You also need the `firebase` package installed which is a peer dependency:
@@ -47,7 +47,7 @@ Below is an example on how to use `FirebaseAuth` with a redirect upon sign-in:
 ```js
 // Import FirebaseAuth and firebase.
 import React from 'react';
-import StyledFirebaseAuth from 'react-firebaseui/StyledFirebaseAuth';
+import StyledFirebaseAuth from 'react-firebaseui18/StyledFirebaseAuth';
 import { initializeApp } from 'firebase/app';
 import { getAuth, GoogleAuthProvider, EmailAuthProvider } from 'firebase/auth';
 
@@ -91,7 +91,7 @@ Below is an example on how to use `StyledFirebaseAuth` with a state change upon 
 ```js
 // Import FirebaseAuth and firebase.
 import React, { useEffect, useState } from 'react';
-import StyledFirebaseAuth from 'react-firebaseui/StyledFirebaseAuth';
+import StyledFirebaseAuth from 'react-firebaseui18/StyledFirebaseAuth';
 import { initializeApp } from 'firebase/app';
 import { getAuth, GoogleAuthProvider, EmailAuthProvider, onAuthStateChanged } from 'firebase/auth';
 

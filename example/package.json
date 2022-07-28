@@ -10,7 +10,7 @@
     "firebase": "^9.8.0",
     "react": "^18.1.0",
     "react-dom": "^18.1.0",
-    "react-firebaseui": "file:../dist/"
+    "react-firebaseui18": "file:../dist/"
   },
   "devDependencies": {
     "@babel/cli": "^7.0.0",

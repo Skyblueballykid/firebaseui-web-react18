@@ -21,7 +21,7 @@ import { createRoot } from 'react-dom/client';
 // Firebase.
 import { initializeApp } from 'firebase/app';
 import { getAuth, GoogleAuthProvider, EmailAuthProvider } from 'firebase/auth';
-import { StyledFirebaseAuth } from 'react-firebaseui';
+import { StyledFirebaseAuth } from 'react-firebaseui18';
 
 // Styles
 import styles from './app.css'; // This uses CSS modules.
